@@ -45,7 +45,7 @@ function renderCardSeries(serie: Serie): void {
   clearCard();
   let divElement = document.createElement("div");
   divElement.setAttribute('class', 'card');
-  divElement.innerHTML =`<img scr="./images/${serie.image}" alt="...">
+  divElement.innerHTML =`<img src="./images/${serie.image}">
                         <div class="card-body">
                           <h5 class="card-title">${serie.name}</h5>
                           <p class="card-text">${serie.description}</p>

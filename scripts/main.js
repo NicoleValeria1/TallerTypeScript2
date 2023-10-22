@@ -34,7 +34,7 @@ function renderCardSeries(serie) {
     clearCard();
     var divElement = document.createElement("div");
     divElement.setAttribute('class', 'card');
-    divElement.innerHTML = "<img scr=\"./images/".concat(serie.image, "\" alt=\"\">\n                        <div class=\"card-body\">\n                          <h5 class=\"card-title\">").concat(serie.name, "</h5>\n                          <p class=\"card-text\">").concat(serie.description, "</p>\n                          <a href=\"#\" class=\"card-link\">").concat(serie.link, "</a>\n                          </div>");
+    divElement.innerHTML = "<img src=\"./images/".concat(serie.image, "\">\n                        <div class=\"card-body\">\n                          <h5 class=\"card-title\">").concat(serie.name, "</h5>\n                          <p class=\"card-text\">").concat(serie.description, "</p>\n                          <a href=\"#\" class=\"card-link\">").concat(serie.link, "</a>\n                          </div>");
     seriesCbody.appendChild(divElement);
 }
 function clearCard() {
