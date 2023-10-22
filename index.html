@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
+        <div class="row" style="background-color:darkcyan;">
             <div class="col-1">
                 <img class="img-fluid max-width: 100% height: auto" src="https://img.freepik.com/premium-vector/tv-show-neon-sign-style-text_44523-738.jpg" alt="Logo">
             </div>
@@ -16,10 +16,10 @@
                 <h1>TV Series</h1>
             </div>
         </div>
-            <div class="col">
+        <div class="row">
+            <div class="col-7">
                 <br>
                 <table class="table">
-                    <thead class="thead-dark">
                       <tr>
                         <th>#</th>
                         <th>Name</th>
@@ -31,6 +31,12 @@
                     </tbody>
                   </table>
             </div>
+            <div class="col-5">
+                <br>
+                <div class="card" id="cards">
+                </div>
+            </div>
+        </div>
         </div>
         <script type="module" src="./scripts/dataSeries.js" ></script>
         <script type="module" src="./scripts/main.js" ></script>
